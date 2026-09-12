@@ -1,12 +1,3 @@
-main {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 5px;
-  padding-top: 15px;
-}
 main .hero-section {
   width: 30%;
   height: 40%;
