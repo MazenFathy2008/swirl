@@ -1,0 +1,20 @@
+main {
+  overflow-y: auto;
+}
+main .sh {
+  cursor: pointer;
+  transition: 0.25s;
+  width: 250px;
+}
+main .sh:hover {
+  transform: scale(0.95);
+}
+main .sh:active {
+  transform: scale(0.9);
+}
+.gif {
+  display: none;
+}
+.gif.active{
+  display: block;
+}

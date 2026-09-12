@@ -6,7 +6,7 @@
     <link rel="icon" href="Images/icon.svg" type="image/x-icon" />
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/header.css" />
-    <link rel="stylesheet" href="styles/dessert.css" />
+    <link rel="stylesheet" href="styles/main.css" />
     <title>MJ resturant</title>
   </head>
   <body>
@@ -18,14 +18,22 @@
       <nav>
         <ul>
           <li><a href="./home.html">Home page</a></li>
-          <li><a href="main-dish.html">Main dish</a></li>
-          <li><a>dessert</a></li>
+          <li><a>Main dish</a></li>
+          <li><a href="dessert.html">dessert</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <img src="Images/Sadie-Sink-Spider-Man-BND.jpg" class="ice-creame"/>
-      <img src="./Images/empty-cone.png"/ class="cone">
+      <h1>Click on shawerma</h1>
+      <img
+        src="Images/shawerma.png"
+        class="sh"
+        onclick="
+          const gif = document.querySelector(`.gif`);
+          gif.classList.toggle(`active`);
+        "
+      />
+      <img src="Images//The_Avengers_Complete_Shawarma.gif" class="gif" />
     </main>
   </body>
 </html>
