@@ -30,10 +30,10 @@ main .hero-section {
 }
 @keyframes float {
   0% {
-    transform: translatey(-1%);
+    transform: translatey(-3%);
   }
   100% {
-    transform: translatey(1%);
+    transform: translatey(3%);
   }
 }
 main .hero-section h1 {
