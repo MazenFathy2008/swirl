@@ -1,6 +1,9 @@
 main {
   justify-content: end;
 }
+body{
+  height: 100vh;
+}
 main .cone {
   width: 400px;
   /* z-index: 100; */
